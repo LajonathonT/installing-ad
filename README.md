@@ -44,6 +44,6 @@ It is now time to install Active Directory on the domain controller VM. With Ser
 </p>
 <br />
 
-<h2>An Important Note </h2>
+<h2>Note </h2>
 
 When logging back in to the domain controller VM through Remote Desktop Connection, it is important to log in with the context of the domain. Type out the domain path and then the name of the user. For example: mydomain.com\labuser. In my case, it is ernestotest.com\labuser. Now that Active Directory is installed, configurations can be implemented in future labs and the client VM will be able to join the domain that was created.
